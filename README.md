@@ -58,7 +58,7 @@ The bytecode is executed inside a deterministic interpreter:
 The VM returns the value of register `a0` (`x10`) as the result.
 
 
-6. Result Storage
+### 6. Result Storage
 
 Execution results are persisted in:
 `plugins/410_riscv/data/riscv.db`
