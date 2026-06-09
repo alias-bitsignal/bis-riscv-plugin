@@ -1,3 +1,32 @@
+Below is a structured, technical overview of a Bismuth RISC-V VM (plugin-based execution).
+
+### Potential Advantages of a Bismuth RISC-V VM
+**RISC-V**
+- Register-based
+- Clean, minimal ISA
+- Well-defined hardware spec
+- Real CPU architecture
+- Easier to reason about
+- Easier to formally verify
+- Closer to real hardware
+- Supported by real toolchains
+
+### Deterministic Minimalism
+
+A Bismuth plugin VM:
+
+- Can be extremely small
+- No gas accounting required (unless you add it)
+- No storage trie
+- No global state
+- No reentrancy complexity
+- No precompiles
+
+Execution can be:
+`Input → Deterministic compute → Output`
+That simplicity reduces attack surface.
+
+
 ## RISC-V On-Chain Execution Flow
 
 This plugin demonstrates how Bismuth abstract transactions can trigger deterministic computation.
