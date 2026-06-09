@@ -53,8 +53,8 @@ Example
 
 When a block is digested, the plugin:
 
-Scans all transactions in action_fullblock
-Matches transactions where:
+- Scans all transactions in `action_fullblock`
+- Matches transactions where:
 `tx[10] == "riscv:run"`
 
 ### 3. JSON Decoding
