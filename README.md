@@ -10,7 +10,7 @@ Transaction → Plugin Trigger → Decode JSON → Base64 → VM Execution → S
 
 A standard Bismuth transaction is sent with:
 `operation = "riscv:run"`
-`penfield = JSON payload`
+`openfield = JSON payload`
 
 Example
 {"code_b64":"EwWgApMIEABzAAAAkwigAHMAAAA=","max_steps":1000}
